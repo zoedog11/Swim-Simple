@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swim Simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav id="navBar">
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a> </li>
+                <li><a href="#lessons" class="active">Lesson types</a> </li>
+                <li><a href="#moreinformation" class="active">More info</a> </li>
+            </ul>
+            <a href="#" class="register-btn">Book Now</a>
+            <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+
+        </nav>
+
+        <!--Search Box Container-->
+        <div class="container">
+            <h1>Book lesson</h1>
+            <div class="search-bar">
+               <form action="">
+                <div class="location-input">
+                    <label> Location </label>
+                    <input type="text" placeholder="">
+                </div>
+                <div>
+                    <label>Age</label>
+                    <input type="text" placeholder="Add age">
+                </div>
+                <div>
+                    <label>Check in</label>
+                    <input type="text" placeholder="Start time">
+                </div>
+                <div>
+                    <label>Check out</label>
+                    <input type="text" placeholder="End time">
+                </div>
+                <button type="sumbit"><img src=images/search.png></button>
+               </form> 
+            </div>
+        </div>
+    </div>
+
+    <!--Exclusives Container-->
+
+    <div class="container" id="lessons">
+        <h2 class="sub-title">Lesson types</h2>
+        <div class="exclusives">
+            <div>
+                <img src="images/toddler.jpeg">
+                <span>
+                    <h3>Infant & Toddler Program</h3>
+                    <p>Ages 6 months-2 years</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/elementary .jpeg">
+                <span>
+                    <h3>Elementary Program</h3>
+                    <p>Ages 3 to 6 years</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/youth.jpeg">
+                <span>
+                    <h3>Youth Program</h3>
+                    <p>Ages 7 to 12 Years</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/adult.jpeg">
+                <span>
+                    <h3>Teen & Adult Program</h3>
+                    <p>Ages 13 years and older</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/special.jpeg">
+                <span>
+                    <h3>Private Lessons & Special Needs</h3>
+                    <p>Any age</p>
+                </span>
+            </div>
+        </div>
+
+
+    <!--trending places-->
+        <h2 class="sub-title">Instructors</h2>
+        <div class="trending">
+
+            <div>
+                <img src="images/emily.webp"> 
+            <h3>Emily</h3>
+            </div>
+
+            <div>
+                <img src="images/ella.jpeg"> 
+            <h3>Ella</h3>
+            </div>
+
+            <div>
+                <img src="images/john.jpeg"> 
+            <h3>John</h3>
+            </div>
+
+            <div>
+                <img src="images/nick.jpeg"> 
+            <h3>Nick</h3>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h3>Learn <br>More Info</h3>
+            <p>Learn more information <br> on our instructors</p>
+            <a href="#" class="cta-btn">Learn More</a>
+        </div>
+
+        <!--stories-->
+        <h2 class="sub-title" id="moreinformation">Reviews</h2>
+        <div class="stories">
+            <div>
+                <img src="images/picture.webp">
+                <p>Fantastic instructors! Patient, encouraging, and really helped my child gain confidence in the water."
+             </p>
+            </div>
+
+            <div>
+                <img src="images/review.jpeg">
+                <p>"Great facility and friendly staff. My son progressed so much in just a few lessons."
+                </p>
+            </div>
+
+            <div>
+                <img src="images/review.webp">
+                <p>"The coaches were amazing with my special needs child. They adapted the lessons perfectly to his abilities."</p>
+            </div>
+        </div>
+        <a href="https://forms.gle/BLSvgq7osB5s7Pk67" target="_blank" class="start-btn">Click for Survey</a>
+
+        <!--about-->
+        <div class="about-msg">
+            <h2>About Us</h2>
+            <p>At Swim Simple, we're dedicated to making every splash count! We believe that swimming is an essential life skill and a source of endless fun. Our mission is to provide high-quality swim lessons in a safe, supportive, and enjoyable environment for people of all ages and skill levels.</p>
+        </div>
+
+          <!--footer-->
+          <div class="footer">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i><a>
+            <a href="#"><i class="fa-brands fa-twitter"></i><a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i><a>
+                <hr>
+                <p>Copyright &copy; 2024, Swim Simple</p>
+          </div>
+</div>
+
+  
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dff719b3.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
